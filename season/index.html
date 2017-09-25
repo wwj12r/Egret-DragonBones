@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>节气奇妙物语</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #c1be9d;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        .alertLayer{
+            position:absolute;top: 0;left: 0;
+            width: 100%;height: 100%;
+            display: none;
+        }
+        .alertLayer.left,.alertLayer.right{
+            display: block;
+        }
+        .loadbg{
+            width: 100%;height: 100%;
+        }
+        .left .loadtxt{
+            position: absolute;top: 50%;left: 50%;
+            transform:translate(-50%,-50%);
+            -webkit-transform:translate(-50%,-50%) rotate(180deg);
+            height:80%;
+        }
+        .right .loadtxt{
+            position: absolute;top: 50%;left: 50%;
+            transform:translate(-50%,-50%);
+            -webkit-transform:translate(-50%,-50%);
+            height:80%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <script src="//res.jiuyan.info//lib/zepto/1.2.0/zepto.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="libs/extend/share.js"></script>
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="lib" src="bin-debug/page1.js"></script>
+	<script egret="lib" src="bin-debug/btn.js"></script>
+	<script egret="lib" src="bin-debug/Gif.js"></script>
+	<script egret="lib" src="bin-debug/LoadingUI.js"></script>
+	<script egret="lib" src="bin-debug/Main.js"></script>
+	<script egret="lib" src="bin-debug/gameStart.js"></script>
+	<script egret="lib" src="bin-debug/page2.js"></script>
+	<script egret="lib" src="bin-debug/page3.js"></script>
+	<script egret="lib" src="bin-debug/page4.js"></script>
+	<script egret="lib" src="bin-debug/page5.js"></script>
+	<script egret="lib" src="bin-debug/page6.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="landscape"
+         data-scale-mode="fixedHeight"
+         data-frame-rate="30"
+         data-content-width="1207"
+         data-content-height="750"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * "retina": //是否基于devicePixelRatio缩放画布
+         * }
+         **/
+        egret.runEgret({renderMode:"canvas", audioType:2});
+    </script>
+    <div class="alertLayer">
+        <img src="resource/assets/load_bg.jpg" alt="" class="loadbg">
+        <img src="resource/assets/load_txt.png" class="loadtxt">
+    </div>
+    <script>
+        var SHARE = {
+            shareTitle: '不如跟我一起，掉进四季的画卷里', // 分享标题
+            shareDesc: '这是一篇真诚的征集。', // 分享描述
+            shareLink: 'https://h5.in66.com/inpromo/2017/egret/season/index.html', // 分享链接
+            shareImg: 'https://h5.in66.com/inpromo/2017/pr-season/img/shareImg.98f2ce5.png',
+            shareTrack: 'season_share'
+        };
+        if (window.orientation != 0 && !isNaN(window.orientation)) {
+            isTwist();
+        }
+        window.onorientationchange = isTwist;
+        function isTwist (){
+            if(window.orientation == 0) {
+                $(".alertLayer").hide()
+            } else if (window.orientation == -90) {
+                $(".alertLayer").show().removeClass('right left').addClass('left')
+            } else {
+                $(".alertLayer").show().removeClass('right left').addClass('right')
+            }
+        }
+    </script>
+    <div id="shareSet"><input type="hidden" id="shareTitle" value="不如跟我一起，掉进四季的画卷里"><input type="hidden" id="shareDesc" value="这是一篇真诚的征集。"><input type="hidden" id="shareLink" value="https://h5.in66.com/inpromo/2017/egret/season/index.html?_ig=share"><input type="hidden" id="shareImgSrc" value="https://h5.in66.com/inpromo/2017/pr-season/img/shareImg.98f2ce5.png"><input type="hidden" id="shareImgUrl" value="https://h5.in66.com/inpromo/2017/pr-season/img/shareImg.98f2ce5.png"><input type="hidden" id="shareImg" value="https://h5.in66.com/inpromo/2017/pr-season/img/shareImg.98f2ce5.png"><input type="hidden" id="shareCallback" value="https://stats1.jiuyan.info/onepiece/router.html?action=h5_promo_pr-season_index_share&amp;_host=h5.in66.com&amp;_token=13a61aec16317b01318fe728b069e9c6&amp;_s=android&amp;_v=3.1.70&amp;_ig=undefined&amp;_=1502282764231"></div>
+</body>
+</html>

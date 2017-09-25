@@ -1,0 +1,23 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js"
+	],
+	"game": [
+		"bin-debug/page1.js",
+		"bin-debug/btn.js",
+		"bin-debug/Gif.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/gameStart.js",
+		"bin-debug/page2.js",
+		"bin-debug/page3.js",
+		"bin-debug/page4.js",
+		"bin-debug/page5.js",
+		"bin-debug/page6.js"
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/res/res.js",
+		"promise/bin/promise.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"inLib/bin/inLib.js"
+	],
+	"game": [
+		"bin-debug/LoadingUI.js",
+		"bin-debug/views/Page021_03.js",
+		"bin-debug/Main.js",
+		"bin-debug/PromoData.js",
+		"bin-debug/PromoLogic.js",
+		"bin-debug/views/Page021_01.js",
+		"bin-debug/views/Page021_02.js",
+		"bin-debug/Gif.js",
+		"bin-debug/views/Page021_04.js",
+		"bin-debug/views/Page021_05.js",
+		"bin-debug/views/Page021_06.js",
+		"bin-debug/views/Scene011.js",
+		"bin-debug/views/Scene012.js",
+		"bin-debug/views/Scene021.js"
+	]
+}

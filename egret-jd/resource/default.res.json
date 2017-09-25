@@ -1,0 +1,429 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,01_ske_json,01_tex_json,01_tex_png,01-bg_jpg,012_ske_json,012_tex_json,012_tex_png,012_ske_1_ske_json,012_ske_1_tex_json,012_1_ske_json,012_1_tex_json,012_1_tex_png,btn-txt_png,02_03_ske_json,02_03_tex_json,02_03_tex_png,02_04_ske_json,02_04_tex_json,02_04_tex_png,02_05_ske_json,02_05_tex_json,02_05_tex_png,02_06_bg_jpg,02_06_ske_json,02_06_tex_json,02_06_tex_png,02_02_ske_json,02_02_tex_json,02_02_tex_png,btn_1_png,btn_2_png,btn_txt_png,02_02_bg_jpg,02_02_bg2_jpg,btn_12_png,btn_22_png,btn_txt2_png,02_03_ske2_json,02_03_tex2_json,02_03_tex2_png,02_04_ske2_json,02_04_tex2_json,02_04_tex2_png,02_05_ske2_json,02_05_tex2_json,02_05_tex2_png,02_06_bg2_jpg,02_06_ske2_json,02_06_tex2_json,02_06_tex2_png,btn-txt2_png,02_02_ske2_json,02_02_tex2_json,02_02_tex2_png,02_02_bg3_jpg,btn_13_png,btn_23_png,btn_txt3_png,kite_tex_json,kite_tex_png,kite_ske_dbbin,cloud2-4_png,cloud2-1_png,ballon_png,kite2_png,kite1_png,cloud2-21_png,cloud2-22_png,cloud2-23_png,cloud2-24_png,fur_png,load_txt_png,load_bg_jpg,logo_png,02_01_ske_json,02_01_tex_json,02_01_tex_png,skip_png",
+			"name": "preload"
+		},
+		{
+			"keys": "00-loading_ske_json,00-loading_tex_json,00-loading_tex_png,loadingBg_jpg",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/00-loading_tex.png",
+			"type": "image",
+			"name": "00-loading_tex_png"
+		},
+		{
+			"url": "assets/00-loading_ske.json",
+			"type": "json",
+			"name": "00-loading_ske_json"
+		},
+		{
+			"url": "assets/00-loading_tex.json",
+			"type": "json",
+			"name": "00-loading_tex_json"
+		},
+		{
+			"url": "assets/loadingBg.jpg",
+			"type": "image",
+			"name": "loadingBg_jpg"
+		},
+		{
+			"url": "assets/01_ske.json",
+			"type": "json",
+			"name": "01_ske_json"
+		},
+		{
+			"url": "assets/01_tex.json",
+			"type": "json",
+			"name": "01_tex_json"
+		},
+		{
+			"url": "assets/01_tex.png",
+			"type": "image",
+			"name": "01_tex_png"
+		},
+		{
+			"url": "assets/01-bg.jpg",
+			"type": "image",
+			"name": "01-bg_jpg"
+		},
+		{
+			"url": "assets/012_ske.json",
+			"type": "json",
+			"name": "012_ske_json"
+		},
+		{
+			"url": "assets/012_tex.json",
+			"type": "json",
+			"name": "012_tex_json"
+		},
+		{
+			"url": "assets/012_tex.png",
+			"type": "image",
+			"name": "012_tex_png"
+		},
+		{
+			"url": "assets/012_ske_1_ske.json",
+			"type": "json",
+			"name": "012_ske_1_ske_json"
+		},
+		{
+			"url": "assets/012_ske_1_tex.json",
+			"type": "json",
+			"name": "012_ske_1_tex_json"
+		},
+		{
+			"url": "assets/012_1_ske.json",
+			"type": "json",
+			"name": "012_1_ske_json"
+		},
+		{
+			"url": "assets/012_1_tex.json",
+			"type": "json",
+			"name": "012_1_tex_json"
+		},
+		{
+			"url": "assets/012_1_tex.png",
+			"type": "image",
+			"name": "012_1_tex_png"
+		},
+		{
+			"url": "assets/btn-txt.png",
+			"type": "image",
+			"name": "btn-txt_png"
+		},
+		{
+			"url": "assets/02_03_ske.json",
+			"type": "json",
+			"name": "02_03_ske_json"
+		},
+		{
+			"url": "assets/02_03_tex.json",
+			"type": "json",
+			"name": "02_03_tex_json"
+		},
+		{
+			"url": "assets/02_03_tex.png",
+			"type": "image",
+			"name": "02_03_tex_png"
+		},
+		{
+			"url": "assets/02_04_ske.json",
+			"type": "json",
+			"name": "02_04_ske_json"
+		},
+		{
+			"url": "assets/02_04_tex.json",
+			"type": "json",
+			"name": "02_04_tex_json"
+		},
+		{
+			"url": "assets/02_04_tex.png",
+			"type": "image",
+			"name": "02_04_tex_png"
+		},
+		{
+			"url": "assets/02_05_ske.json",
+			"type": "json",
+			"name": "02_05_ske_json"
+		},
+		{
+			"url": "assets/02_05_tex.json",
+			"type": "json",
+			"name": "02_05_tex_json"
+		},
+		{
+			"url": "assets/02_05_tex.png",
+			"type": "image",
+			"name": "02_05_tex_png"
+		},
+		{
+			"url": "assets/02_06_bg.jpg",
+			"type": "image",
+			"name": "02_06_bg_jpg"
+		},
+		{
+			"url": "assets/02_06_ske.json",
+			"type": "json",
+			"name": "02_06_ske_json"
+		},
+		{
+			"url": "assets/02_06_tex.json",
+			"type": "json",
+			"name": "02_06_tex_json"
+		},
+		{
+			"url": "assets/02_06_tex.png",
+			"type": "image",
+			"name": "02_06_tex_png"
+		},
+		{
+			"url": "assets/02_02_ske.json",
+			"type": "json",
+			"name": "02_02_ske_json"
+		},
+		{
+			"url": "assets/02_02_tex.json",
+			"type": "json",
+			"name": "02_02_tex_json"
+		},
+		{
+			"url": "assets/02_02_tex.png",
+			"type": "image",
+			"name": "02_02_tex_png"
+		},
+		{
+			"url": "assets/btn_1.png",
+			"type": "image",
+			"name": "btn_1_png"
+		},
+		{
+			"url": "assets/btn_2.png",
+			"type": "image",
+			"name": "btn_2_png"
+		},
+		{
+			"url": "assets/btn_txt.png",
+			"type": "image",
+			"name": "btn_txt_png"
+		},
+		{
+			"url": "assets/02_02_bg.jpg",
+			"type": "image",
+			"name": "02_02_bg_jpg"
+		},
+		{
+			"url": "assets/02_02_bg.jpg",
+			"type": "image",
+			"name": "02_02_bg2_jpg"
+		},
+		{
+			"url": "assets/btn_1.png",
+			"type": "image",
+			"name": "btn_12_png"
+		},
+		{
+			"url": "assets/btn_2.png",
+			"type": "image",
+			"name": "btn_22_png"
+		},
+		{
+			"url": "assets/btn_txt.png",
+			"type": "image",
+			"name": "btn_txt2_png"
+		},
+		{
+			"url": "assets/02_03_ske.json",
+			"type": "json",
+			"name": "02_03_ske2_json"
+		},
+		{
+			"url": "assets/02_03_tex.json",
+			"type": "json",
+			"name": "02_03_tex2_json"
+		},
+		{
+			"url": "assets/02_03_tex.png",
+			"type": "image",
+			"name": "02_03_tex2_png"
+		},
+		{
+			"url": "assets/02_04_ske.json",
+			"type": "json",
+			"name": "02_04_ske2_json"
+		},
+		{
+			"url": "assets/02_04_tex.json",
+			"type": "json",
+			"name": "02_04_tex2_json"
+		},
+		{
+			"url": "assets/02_04_tex.png",
+			"type": "image",
+			"name": "02_04_tex2_png"
+		},
+		{
+			"url": "assets/02_05_ske.json",
+			"type": "json",
+			"name": "02_05_ske2_json"
+		},
+		{
+			"url": "assets/02_05_tex.json",
+			"type": "json",
+			"name": "02_05_tex2_json"
+		},
+		{
+			"url": "assets/02_05_tex.png",
+			"type": "image",
+			"name": "02_05_tex2_png"
+		},
+		{
+			"url": "assets/02_06_bg.jpg",
+			"type": "image",
+			"name": "02_06_bg2_jpg"
+		},
+		{
+			"url": "assets/02_06_ske.json",
+			"type": "json",
+			"name": "02_06_ske2_json"
+		},
+		{
+			"url": "assets/02_06_tex.json",
+			"type": "json",
+			"name": "02_06_tex2_json"
+		},
+		{
+			"url": "assets/02_06_tex.png",
+			"type": "image",
+			"name": "02_06_tex2_png"
+		},
+		{
+			"url": "assets/btn-txt.png",
+			"type": "image",
+			"name": "btn-txt2_png"
+		},
+		{
+			"url": "assets/02_02_ske.json",
+			"type": "json",
+			"name": "02_02_ske2_json"
+		},
+		{
+			"url": "assets/02_02_tex.json",
+			"type": "json",
+			"name": "02_02_tex2_json"
+		},
+		{
+			"url": "assets/02_02_tex.png",
+			"type": "image",
+			"name": "02_02_tex2_png"
+		},
+		{
+			"url": "assets/02_02_bg.jpg",
+			"type": "image",
+			"name": "02_02_bg3_jpg"
+		},
+		{
+			"url": "assets/btn_1.png",
+			"type": "image",
+			"name": "btn_13_png"
+		},
+		{
+			"url": "assets/btn_2.png",
+			"type": "image",
+			"name": "btn_23_png"
+		},
+		{
+			"url": "assets/btn_txt.png",
+			"type": "image",
+			"name": "btn_txt3_png"
+		},
+		{
+			"url": "assets/kite_tex.json",
+			"type": "json",
+			"name": "kite_tex_json"
+		},
+		{
+			"url": "assets/kite_tex.png",
+			"type": "image",
+			"name": "kite_tex_png"
+		},
+		{
+			"url": "assets/kite_ske.dbbin",
+			"type": "bin",
+			"name": "kite_ske_dbbin"
+		},
+		{
+			"url": "assets/cloud2-4.png",
+			"type": "image",
+			"name": "cloud2-4_png"
+		},
+		{
+			"name": "cloud2-1_png",
+			"type": "image",
+			"url": "assets/cloud2-1.png"
+		},
+		{
+			"name": "ballon_png",
+			"type": "image",
+			"url": "assets/ballon.png"
+		},
+		{
+			"name": "kite2_png",
+			"type": "image",
+			"url": "assets/kite2.png"
+		},
+		{
+			"name": "kite1_png",
+			"type": "image",
+			"url": "assets/kite1.png"
+		},
+		{
+			"name": "cloud2-21_png",
+			"type": "image",
+			"url": "assets/cloud2-21.png"
+		},
+		{
+			"name": "cloud2-22_png",
+			"type": "image",
+			"url": "assets/cloud2-22.png"
+		},
+		{
+			"name": "cloud2-23_png",
+			"type": "image",
+			"url": "assets/cloud2-23.png"
+		},
+		{
+			"name": "cloud2-24_png",
+			"type": "image",
+			"url": "assets/cloud2-24.png"
+		},
+		{
+			"name": "fur_png",
+			"type": "image",
+			"url": "assets/fur.png"
+		},
+		{
+			"name": "load_txt_png",
+			"type": "image",
+			"url": "assets/load_txt.png"
+		},
+		{
+			"name": "load_bg_jpg",
+			"type": "image",
+			"url": "assets/load_bg.jpg"
+		},
+		{
+			"name": "logo_png",
+			"type": "image",
+			"url": "assets/logo.png"
+		},
+		{
+			"name": "02_01_ske_json",
+			"type": "json",
+			"url": "assets/02_01_ske.json"
+		},
+		{
+			"name": "02_01_tex_json",
+			"type": "json",
+			"url": "assets/02_01_tex.json"
+		},
+		{
+			"name": "02_01_tex_png",
+			"type": "image",
+			"url": "assets/02_01_tex.png"
+		},
+		{
+			"name": "skip_png",
+			"type": "image",
+			"url": "assets/skip.png"
+		}
+	]
+}

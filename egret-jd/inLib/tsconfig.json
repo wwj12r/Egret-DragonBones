@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outFile": "bin/inLib.js",
+    "dependence": ["core"],
+    "allowJs": true
+	},
+  "files": [  
+    "src/zepto.min.js",
+    "src/common.js",  
+    "src/awake.js",  
+    "src/share.js",  
+    "src/track.js"  
+  ]
+}
